@@ -38,7 +38,7 @@
 					   title="Александр Данилович Александров о математике"> Александров&nbsp;А.Д.</a>
 				</div>
 			</div>
-			<!-- Слайд №2 -->
+			<!-- this Слайд №2 -->
 			<div class="item">
 				<img class="carousel__img" src="<?php bloginfo('template_url') ?>/img/slider2.jpg" alt="Школьник-вундеркинд">
 				<div class="carousel-caption to-animate">
