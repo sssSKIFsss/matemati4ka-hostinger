@@ -7786,7 +7786,7 @@ Copyright (c) 2015 Daniel Eden
   animation-name: slideOutUp; }
 
 .icon-books, .icon-coffee, .icon-direction, .icon-direction-white, .icon-envelope, .icon-facebook, .icon-home, .icon-internet, .icon-layers, .icon-parents, .icon-parents-white, .icon-phone, .icon-square, .icon-square-white, .icon-suitcase, .icon-vk, .icon-wrench, .icon-youtube {
-  background: url("img/sprite.svg") no-repeat; }
+  background: url("http://matemati4ka.esy.es/wp-content/uploads/2017/02/sprite.svg") no-repeat; }
 
 .icon-books {
   background-position: 0 0;
@@ -7912,6 +7912,10 @@ Copyright (c) 2015 Daniel Eden
   font-style: normal;
   font-stretch: normal;
   src: local("SourceSansPro-Bold"), local("Source Sans Pro Bold"), url("fonts/source-sans-pro/eot/SourceSansPro-Bold.eot") format("embedded-opentype"), url("fonts/source-sans-pro/woff/SourceSansPro-Bold.woff") format("woff"), url("fonts/source-sans-pro/otf/SourceSansPro-Bold.otf") format("opentype"), url("fonts/source-sans-pro/ttf/SourceSansPro-Bold.ttf") format("truetype"); }
+
+.ksa-about_content {
+  max-width: 800px;
+  margin: auto; }
 
 .ksa-article h4 {
   margin: 1.5em 0 0.5em 0; }
@@ -8495,26 +8499,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #b3b3b3;
     display: block;
     margin-bottom: 20px; }
-
-.fh5co-person:before {
-  content: '';
-  position: absolute;
-  border: 2px solid #f2f2f2;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  background: url(img/sprite.jpg);
-  top: -50px;
-  margin-left: -50px; }
-
-.fh5co-person.icon1:before {
-  background-position: 0 300px; }
-
-.fh5co-person.icon2:before {
-  background-position: 0 400px; }
-
-.fh5co-person.icon3:before {
-  background-position: 0 500px; }
 
 .form-control {
   box-shadow: none;
