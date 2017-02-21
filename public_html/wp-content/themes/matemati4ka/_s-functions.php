@@ -26,8 +26,8 @@ function matemati4ka_setup() {
 	 * Регистрируем двa меню
 	 */
 	register_nav_menus( array(
-		'header' => esc_html__( 'Верхнее меню', 'matemati4ka' ),
-		'sidebar' => esc_html__('Боковое меню', 'matemati4ka')
+		'header' => esc_html__( 'top', 'matemati4ka' ),
+		'sidebar' => esc_html__('sidebar', 'matemati4ka')
 	));
 
 
