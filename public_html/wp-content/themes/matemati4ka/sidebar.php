@@ -27,123 +27,143 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 			if($cats[0] -> category_parent === 12) { ?>
 
 				<!-- Математика -->
-				<!-- 1 панель -->
+
+				<!-- 1 панель 5 класс -->
 				<div class="panel panel-primary">
-					<!-- Заголовок 1 панели -->
+					<!-- Заголовок -->
 					<a class='panel-heading' data-toggle="collapse"
 					   data-parent="#accordion" href="#collapseOne">
+						<h4 class="panel-title">Математика 5 класс</h4>
+					</a>
+					<!-- Содержимое -->
+					<div id="collapseOne" class="panel-collapse collapse
+						<?php if($cats[0]->cat_ID === 31) echo ' in' ?>">
+						<div class="panel-body">
+							<ul>
+								<li><a
+										href="http://matemati4ka.esy.es/2017/02/26/articles/school-math/math-5/start-work-5/">Входная контрольная работа</a></li>
+								<li><a
+										href="http://matemati4ka.esy.es/2017/02/25/articles/school-math/math-5/itog-kontrol-work5/">Итоговая контрольная работа</a></li>
+								<li><a
+										href="http://matemati4ka.esy.es/2017/02/25/articles/school-math/math-5/obyknovennye-drobi/">Урок презентация "Обыкновенные дроби"</a></li>
+								<li><a
+										href="http://matemati4ka.esy.es/2017/02/26/articles/school-math/math-5/slozhenie-vychitanie-smeshannyx-chisel/">Урок презентация "Сложение и вычитание смешанных чисел"</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- 2 панель 6 класс -->
+				<div class="panel panel-primary">
+					<!-- Заголовок -->
+					<a class='panel-heading' data-toggle="collapse"
+					   data-parent="#accordion" href="#collapseTwo">
 						<h4 class="panel-title">Математика 6 класс</h4>
 					</a>
 					<!-- Содержимое 1 панели -->
-
-					<div id="collapseOne" class="panel-collapse collapse
+					<div id="collapseTwo" class="panel-collapse collapse
 						<?php if($cats[0]->cat_ID === 15) echo ' in' ?>">
 						<div class="panel-body">
 							<ul>
 								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/math-6/1-5">Пояснительная
-										записка</a></li>
+									href="http://matemati4ka.esy.es/2017/02/25/articles/school-math/math-6/start-kontrol-work6/">Входная контрольная работа</a></li>
 								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/math-6/2-5">Общая
-										характеристика курса математики</a></li>
-								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/math-6/3-5">Место
-										предмета в учебном плане школы</a></li>
-								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/math-6/4-4">Личностные,
-										метапредметные и предметные результаты освоения курса</a>
-								</li>
-								<li><a
-										href="http://matemati4ka.esy.es/2017/02/20/articles/school-math/math-6/soderzhanie-kursa">Содержание
-										курса</a></li>
-								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/math-6/planiruemye-rezultaty-obucheniya">Планируемые
-										результаты обучения</a></li>
-								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/math-6/ocenka">Оценка
-										достижения предметных результатов</a></li>
-								<li><a
-										href=" http://matemati4ka.esy.es/2017/02/14/articles/school-math/math-6/tematicheskoe-planirovanie">Тематическое
-										планирование</a></li>
-								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/math-6/metodobespechenie">Методическое
-										и техническое обеспечение</a></li>
+									href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/math-6/work-programm-6/">Рабочая программа</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-				<!-- 2 панель -->
+
+				<!-- 3 панель 7 класс -->
 				<div class="panel panel-primary">
 					<!-- Заголовок 2 панели -->
 					<a class='panel-heading' data-toggle="collapse"
-					   data-parent="#accordion" href="#collapseTwo">
-						<h4 class="panel-title">Алгебра 7-9 классы</h4>
+					   data-parent="#accordion" href="#collapseThree">
+						<h4 class="panel-title">Математика 7 класс</h4>
 					</a>
 					<!-- Содержимое 2 панели -->
-					<div id="collapseTwo" class="panel-collapse collapse <?php if($cats[0]->cat_ID === 16) echo 'in'?>">
+					<div id="collapseThree" class="panel-collapse collapse <?php if($cats[0]->cat_ID === 33) echo 'in'?>">
 						<div class="panel-body">
 							<ul>
 								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/algebra-7_9/1-6">Пояснительная
-										записка</a></li>
+										href="http://matemati4ka.esy.es/2017/02/26/articles/school-math/math-7/start-kontrol-algebra-7/">Стартовая контрольная работа по алгебре</a></li>
 								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/algebra-7_9/2-6">Общая
-										характеристика учебного предмета</a></li>
+										href="http://matemati4ka.esy.es/2017/02/26/articles/school-math/math-7/work-programm-geometry-7/">Рабочая программа по геометрии 7 класс</a></li>
 								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/algebra-7_9/3-6">Место
-										предмета в учебном плане школы</a></li>
+										href="http://matemati4ka.esy.es/2017/02/26/articles/school-math/math-7/work-programm-algebra-7/">Рабочая программа по алгебре 7 класс</a></li>
 								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/algebra-7_9/4-5">Требования
-										к уровню подготовки обучающихся </a></li>
+										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/math-7/work-programm-geometry-7-9/">Рабочая программа по геометрии 7-9 классы</a></li>
 								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/algebra-7_9/5-2">Содержание
-										курса</a></li>
-								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/algebra-7_9/6-2">Тематическое
-										планирование</a></li>
-								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/algebra-7_9/7-2">Методическое
-										и техническое обеспечение</a></li>
+										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/math-7/work-programm-algebra-7-9/">Рабочая программа по алгебре 7-9 классы</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-				<!-- 3 панель -->
+
+				<!-- 4 панель 8 класс -->
 				<div class="panel panel-primary">
 					<!-- Заголовок 3 панели -->
 					<a class='panel-heading' data-toggle="collapse"
-					   data-parent="#accordion" href="#collapseThree">
-						<h4 class="panel-title">Геометрия 7-9 классы</h4>
+					   data-parent="#accordion" href="#collapseFour">
+						<h4 class="panel-title">Математика 8 класс</h4>
 					</a>
 					<!-- Содержимое 3 панели -->
-					<div id="collapseThree" class="panel-collapse collapse <?php if($cats[0]->cat_ID === 17) echo 'in'?>">
+					<div id="collapseFour" class="panel-collapse collapse <?php if($cats[0]->cat_ID === 34) echo 'in'?>">
 						<div class="panel-body">
 							<ul>
 								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/geometry-7_9/1-7">Пояснительная
-										записка</a></li>
+										href="http://matemati4ka.esy.es/2017/02/26/articles/school-math/math-8/start-work-algebra-8/">Стартовая контрольная работа по алгебре 8 класс</a></li>
 								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/geometry-7_9/2-7">Общая
-										характеристика учебного предмета</a></li>
+										href="http://matemati4ka.esy.es/2017/02/26/articles/school-math/math-8/work-programm-geometry-8/">Рабочая программа по геометрии 8 класс</a></li>
 								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/geometry-7_9/3-7">Место
-										предмета в учебном плане школы</a></li>
-								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/geometry-7_9/4-6">Требования
-										к уровню подготовки обучающихся </a></li>
-								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/geometry-7_9/5-3">Содержание
-										курса</a></li>
-								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/geometry-7_9/6-3">Тематическое
-										планирование</a></li>
-								<li><a
-										href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/geometry-7_9/7-3">Методическое
-										и техническое обеспечение</a></li>
+										href="http://matemati4ka.esy.es/2017/02/26/articles/school-math/math-8/work-programm-algebra-8/">Рабочая программа по алгебре 8 класс</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
+
+				<!-- 5 панель 9 класс -->
+				<div class="panel panel-primary">
+					<!-- Заголовок 3 панели -->
+					<a class='panel-heading' data-toggle="collapse"
+					   data-parent="#accordion" href="#collapseFive">
+						<h4 class="panel-title">Математика 9 класс</h4>
+					</a>
+					<!-- Содержимое 3 панели -->
+					<div id="collapseFive" class="panel-collapse collapse <?php if($cats[0]->cat_ID === 35) echo 'in'?>">
+						<div class="panel-body">
+							<ul>
+								<li><a
+										href="http://matemati4ka.esy.es/2017/02/26/articles/school-math/math-9/start-work-algebra-9/">Стартовая контрольная работа по алгебре 9 класс</a></li>
+								<li><a
+										href="http://matemati4ka.esy.es/2017/02/26/articles/school-math/math-9/work-programm-geometry-9/">Рабочая программа по геометрии 9 класс</a></li>
+								<li><a
+										href="http://matemati4ka.esy.es/2017/02/26/articles/school-math/math-9/work-programm-algebra-9/">Рабочая программа по алгебре 9 класс</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- 6 панель КВН -->
+				<div class="panel panel-primary">
+					<!-- Заголовок 3 панели -->
+					<a class='panel-heading' data-toggle="collapse"
+					   data-parent="#accordion" href="#collapseSix">
+						<h4 class="panel-title">Занимательная математика</h4>
+					</a>
+					<!-- Содержимое 3 панели -->
+					<div id="collapseSix" class="panel-collapse collapse <?php if($cats[0]->cat_ID === 32) echo 'in'?>">
+						<div class="panel-body">
+							<ul>
+								<li><a
+										href="http://matemati4ka.esy.es/2017/02/26/articles/school-math/kvn/kvn-5/">Математический КВН в 5 классе</a></li>
+								<li><a
+										href="http://matemati4ka.esy.es/2017/02/26/articles/school-math/kvn/math-kvn-5-6/">Математический КВН между 5 и 6 классами</a></li>
+							</ul>
+						</div>
+					</div>
+				</div
 
 			<?php
 			} else {

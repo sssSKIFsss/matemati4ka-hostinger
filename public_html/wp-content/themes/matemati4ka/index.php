@@ -39,7 +39,8 @@ get_header(); ?>
 
 			endwhile;
 
-			the_posts_navigation();
+			if(function_exists('wp_pagenavi')) : wp_pagenavi(); endif;
+			//	the_posts_navigation();
 
 		else :
 
@@ -47,9 +48,9 @@ get_header(); ?>
 
 		endif; ?>
 
+			<?php get_sidebar(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();

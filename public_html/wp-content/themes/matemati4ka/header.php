@@ -57,7 +57,7 @@
 						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
 						<!-- Логотип -->
 						<a class="navbar-brand" href="<?php echo home_url() ?>">
-							<?php bloginfo( 'name' ) ?>
+							<?php bloginfo('name') ?>
 						</a>
 					</div> <!-- end Заголовок планки -->
 					<!-- Меню -->
@@ -67,18 +67,36 @@
 //						'container_class' => 'navbar-collapse collapse',
 //						'menu_class' => 'nav navbar-nav navbar-right'
 //					)) ?>
+					<?php if ( is_front_page() ) { ?>
+						<div id="navbar" class="navbar-collapse collapse">
+							<!-- Линейка меню. Таких линеек может быть несколько -->
+							<ul class="nav navbar-nav navbar-right">
+									<li class="active"><a href="#" data-nav-section="home"> <span>Начало</span></a></li>
+									<li><a href="#" data-nav-section="portfolio"><span>Работа</span></a></li>
+									<li><a href="#" data-nav-section="testimonials"><span>Отзывы</span></a></li>
+									<li><a href="#" data-nav-section="services"><span>Скилы</span></a></li>
+									<li><a href="#" data-nav-section="about"><span>Обо мне</span></a></li>
+									<li><a href="#" data-nav-section="contact"><span>Контакты</span></a></li>
+							</ul> <!-- end Линека меню -->
+						</div> <!-- end Меню -->
 
-					<div id="navbar" class="navbar-collapse collapse">
-						<!-- Линейка меню. Таких линеек может быть несколько -->
-						<ul class="nav navbar-nav navbar-right ">
-							<li class="active"><a href="#" data-nav-section="home"><span>Начало</span></a></li>
-							<li><a href="#" data-nav-section="portfolio"><span>Работа</span></a></li>
-							<li><a href="#" data-nav-section="testimonials"><span>Отзывы</span></a></li>
-							<li><a href="#" data-nav-section="services"><span>Скилы</span></a></li>
-							<li><a href="#" data-nav-section="about"><span>Обо мне</span></a></li>
-							<li><a href="#" data-nav-section="contact"><span>Контакты</span></a></li>
-						</ul> <!-- end Линека меню -->
-					</div> <!-- end Меню -->
+
+					<?php } else { ?>
+						<div class="navbar-collapse collapse">
+							<!-- Линейка меню. Таких линеек может быть несколько -->
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="http://matemati4ka.esy.es#fh5co-home"> <span>Начало</span></a></li>
+								<li><a href="http://matemati4ka.esy.es#fh5co-work"><span>Работа</span></a></li>
+								<li><a href="http://matemati4ka.esy.es#fh5co-testimonials"><span>Отзывы</span></a></li>
+								<li><a href="http://matemati4ka.esy.es#fh5co-services"><span>Скилы</span></a></li>
+								<li><a href="http://matemati4ka.esy.es#fh5co-about"><span>Обо мне</span></a></li>
+								<li><a href="http://matemati4ka.esy.es#fh5co-contact"><span>Контакты</span></a></li>
+							</ul> <!-- end Линека меню -->
+						</div> <!-- end Меню -->
+
+
+					<?php
+					} ?>
 
 
 				</nav> <!-- end Планка бренд-меню -->

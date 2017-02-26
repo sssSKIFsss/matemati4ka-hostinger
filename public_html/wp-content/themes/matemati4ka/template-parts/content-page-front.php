@@ -84,7 +84,7 @@
 					<i class="fh5co-intro-icon icon-square"></i>
 					<h2>Школьная математика</h2>
 					<p>Я преподаю математику с 5 по 9 класс. Наработанные мною материалы можно посмотреть здесь</p>
-					<p><a href="http://matemati4ka.esy.es/2017/02/14/articles/school-math/math-6/1-5" class="btn btn-primary">Подсмотреть!</a></p>
+					<p><a href="http://matemati4ka.esy.es/2017/02/25/articles/school-math/math-5/start-kontrol-work5/" class="btn btn-primary">Подсмотреть!</a></p>
 				</div>
 			</div>
 			<div class="fh5co-block to-animate">
@@ -105,7 +105,7 @@
 					<i class="fh5co-intro-icon icon-parents"></i>
 					<h2>Работа с родителями</h2>
 					<p>Успех в работе с детьми зависит от того, станут ли их родители твоими верными союзниками и пощниками.</p>
-					<p><a href=" http://matemati4ka.esy.es/2017/02/14/articles/for-parents/сhildrens-rights/1-2" class="btn btn-primary">Зачем?</a></p>
+					<p><a href="http://matemati4ka.esy.es/2017/02/14/articles/for-parents/сhildrens-rights/live" class="btn btn-primary">Зачем?</a></p>
 				</div>
 			</div>
 		</div>
@@ -352,40 +352,9 @@
 			<div class="col-md-6 to-animate">
 				<!-- Заголовок контейнера -->
 				<h3>Напишите мне письмо</h3>
-				<!-- Сообщение, отображаемое в случае успешной отправки данных -->
-				<div class="alert alert-success hidden" role="alert" id="msgSubmit">
-					<strong>Внимание!</strong> Ваше сообщение отправлено.
-				</div>
+
 				<!-- Форма обратной связи -->
-				<form id="messageForm">
-					<div id="error" class="col-sm-12" style="color:#ff0000; margin-top:5px; margin-bottom: 5px;"></div>
-					<!-- Имя пользователя -->
-					<div class="form-group has-feedback">
-						<label for="name" class="sr-only">Name</label>
-						<input id="name" name="name" class="form-control" required="required" placeholder="Имя" type="text" value="" minlength="2" maxlength="40">
-						<span class="glyphicon form-control-feedback"></span>
-					</div>
-					<!-- Email пользователя -->
-					<div class="form-group has-feedback">
-						<label for="email" class="sr-only">Email</label>
-						<input id="email" name="email" class="form-control" required="required" placeholder="Email" minlength="8" maxlength="30" type="email" value="">
-						<span class="glyphicon form-control-feedback"></span>
-					</div>
-					<!-- Телефон пользователя -->
-					<div class="form-group has-feedback">
-						<label for="phone" class="sr-only">Phone</label>
-						<input id="phone" name="phone" class="form-control" required="required" placeholder="Телефон" minlength="10" maxlength="16" type="text" value="">
-						<span class="glyphicon form-control-feedback"></span>
-					</div>
-					<!-- Сообщение пользователя  -->
-					<div class="form-group has-feedback">
-						<label for="message" class="sr-only">Message</label>
-						<textarea id="message" class="form-control" name="Your-message" cols="30" rows="5" placeholder="Сообщение" required="required"></textarea>
-					</div>
-					<div class="form-group ">
-						<input class="btn btn-primary btn-lg" name="send-message" value="Отпаравить сообщение" type="submit">
-					</div>
-				</form><!-- Конец формы -->
+			 	<?php echo do_shortcode( '[contact-form-7 id="532" title="ksa-contact-form"]' ); ?>
 			</div>
 		</div>
 	</div>

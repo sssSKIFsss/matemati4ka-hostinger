@@ -134,9 +134,11 @@ function matemati4ka_scripts() {
 add_action( 'wp_enqueue_scripts', 'matemati4ka_scripts' );
 
 /**
-
  * добавить поддержку формата SVG
-
+ *
+ * @param $file_types
+ *
+ * @return array
  */
 function add_file_types_to_uploads($file_types){
 	$new_filetypes = array();
